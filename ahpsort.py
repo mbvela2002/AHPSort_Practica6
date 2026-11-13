@@ -12,12 +12,6 @@ Funciones reutilizables para los cuatro ejercicios:
                                     alternativas y asigna cada alternativa a la clase del
                                     perfil central más cercano.
   * plot_classification(...)     -> mapa de coropletas con la clase de cada provincia.
-
-Notación (teoría AHPSort II, Miccoli e Ishizaka 2017):
-    p_kj  = prioridad local de la alternativa k en el criterio j (interpolada en la función)
-    p_k   = Σ_j w_j · p_kj                       (prioridad global de la alternativa k)
-    cp_i  = Σ_j w_j · p_ij                       (prioridad global del perfil central i)
-    Asignación con perfiles centrales: la alternativa va a la clase cuyo cp_i está más cerca de p_k.
 """
 from __future__ import annotations
 
